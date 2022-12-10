@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+      <title>CountDown Timer</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+      <div class="container">
+       
+        <form class="form">
+         
+          <input type="number" min="1" class="time-input" placeholder="Enter Countdown">
+       
+          <select name="format">
+            <option value="hours">Hours</option>
+            <option value="minutes">Minutes</option>
+            <option value="seconds">Seconds</option>
+          </select>
+          
+          <button type="submit" class="set-btn">SET</button>
+        </form>
+        
+        <p class="countdown">00 : 00 : 00</p>
+    
+      
+        <div class="buttons">
+          <button class="stop-btn" disabled>STOP</button>
+          <button class="reset-btn" disabled>RESET</button>
+        </div>
+      </div>
+    
+      <script type="text/javascript" src="js/script.js"></script>
+    </body>
+    </html>
+
+    <script src="app.js"></script>
+</body>
+</html>
